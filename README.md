@@ -2,6 +2,32 @@
 
 Aplikasi manajemen perpustakaan berbasis web yang dibangun menggunakan framework Laravel 12 dengan arsitektur Model-View-Controller (MVC). Aplikasi ini menyediakan fitur CRUD lengkap untuk pengelolaan buku, anggota, dan peminjaman buku.
 
+## 📸 Screenshot Aplikasi
+
+### 1. Halaman Utama - Dashboard
+![Dashboard](ss/1.png)
+*Tampilan dashboard utama aplikasi perpustakaan*
+
+### 2. Halaman Utama - Daftar Buku
+![Daftar Buku](screenshots/2-books-list.png)
+*Daftar lengkap semua buku dengan fitur pencarian dan filter*
+
+### 3. Halaman Utama - Tabel Buku
+![Tabel Buku](screenshots/3-books-table.png)
+*Tampilan tabel buku dengan aksi CRUD (Create, Read, Update, Delete)*
+
+### 4. Detail Buku
+![Detail Buku](screenshots/4-book-detail.png)
+*Halaman detail informasi lengkap sebuah buku*
+
+### 5. Edit Buku
+![Edit Buku](screenshots/5-edit-book.png)
+*Form untuk mengedit informasi buku yang sudah ada*
+
+### 6. Tambah Buku
+![Tambah Buku](screenshots/6-add-book.png)
+*Form untuk menambahkan buku baru ke dalam sistem*
+
 ## ✨ Fitur Utama
 
 ### 📖 Manajemen Buku
@@ -24,7 +50,7 @@ Aplikasi manajemen perpustakaan berbasis web yang dibangun menggunakan framework
 - PHP >= 8.2
 - Composer
 - Node.js & NPM
-- MySQL >= 8.0 atau PostgreSQL >= 13
+- MySQL >= 8.0
 - Web Server (Apache/Nginx)
 
 ## 🚀 Instalasi
