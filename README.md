@@ -14,7 +14,8 @@ Aplikasi manajemen perpustakaan berbasis web yang dibangun menggunakan framework
 
 - **Framework**: Laravel 12
 - **Arsitektur**: Model-View-Controller (MVC)
-- **Database**: MySQL/PostgreSQL
+- **Database**: MySQL
+- **Database running**: Laragon 
 - **Frontend**: Blade Templates, Bootstrap 5
 - **Icons**: Font Awesome / Heroicons
 
@@ -52,34 +53,19 @@ cp .env.example .env
 php artisan key:generate
 ```
 
-### 4. Konfigurasi Database
-Edit file `.env` dan sesuaikan pengaturan database:
-```env
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=perpustakaan_db
-DB_USERNAME=your_username
-DB_PASSWORD=your_password
-```
-
-### 5. Migrasi Database
+### 4. Migrasi Database
 ```bash
 # Jalankan migrasi
 php artisan migrate
 
-# (Opsional) Jalankan seeder untuk data contoh
+# Jalankan seeder untuk data contoh
 php artisan db:seed
+php artisan migrate:fresh --seed
 ```
 
-### 6. Build Assets
+### 5. Jalankan Aplikasi
 ```bash
-npm run build
-```
-
-### 7. Jalankan Aplikasi
-```bash
-php artisan serve
+composer run dev
 ```
 
 Aplikasi akan berjalan di `http://localhost:8000`
@@ -170,34 +156,6 @@ Aplikasi menggunakan icon yang konsisten untuk setiap aksi:
 1. Edit file blade di folder `resources/views/`
 2. Modifikasi CSS di `resources/css/app.css`
 3. Build ulang assets: `npm run build`
-
-## 🐛 Troubleshooting
-
-### Error Database Connection
-- Pastikan service database berjalan
-- Periksa konfigurasi di file `.env`
-- Jalankan `php artisan config:cache`
-
-### Asset Not Found
-- Jalankan `npm run build`
-- Periksa konfigurasi Vite
-
-### Permission Error
-```bash
-chmod -R 775 storage bootstrap/cache
-```
-
-## 🤝 Kontribusi
-
-1. Fork repository ini
-2. Buat branch fitur baru: `git checkout -b feature/nama-fitur`
-3. Commit perubahan: `git commit -m 'Menambah fitur X'`
-4. Push ke branch: `git push origin feature/nama-fitur`
-5. Buat Pull Request
-
-## 📄 Lisensi
-
-Aplikasi ini menggunakan lisensi [MIT License](LICENSE).
 
 ## 👨‍💻 Developer
 
