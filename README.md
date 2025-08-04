@@ -9,23 +9,24 @@ Aplikasi manajemen perpustakaan berbasis web yang dibangun menggunakan framework
 *Tampilan dashboard utama aplikasi perpustakaan*
 
 ### 2. Halaman Utama - Daftar Buku
-![Daftar Buku](screenshots/2-books-list.png)
-*Daftar lengkap semua buku dengan fitur pencarian dan filter*
+![Daftar Buku](ss/2.png)
+*Daftar lengkap semua buku dengan fitur pencarian*
+*Tampilan card buku dengan aksi baca, edit, hapus*
 
-### 3. Halaman Utama - Tabel Buku
-![Tabel Buku](screenshots/3-books-table.png)
-*Tampilan tabel buku dengan aksi CRUD (Create, Read, Update, Delete)*
+### 3. Halaman Utama - pagination
+![Tabel Buku](ss/3.png)
+*Tampilan pagination melihat data buku lainnya*
 
 ### 4. Detail Buku
-![Detail Buku](screenshots/4-book-detail.png)
+![Detail Buku](ss/4.png)
 *Halaman detail informasi lengkap sebuah buku*
 
 ### 5. Edit Buku
-![Edit Buku](screenshots/5-edit-book.png)
+![Edit Buku](ss/5.png)
 *Form untuk mengedit informasi buku yang sudah ada*
 
 ### 6. Tambah Buku
-![Tambah Buku](screenshots/6-add-book.png)
+![Tambah Buku](ss/6.png)
 *Form untuk menambahkan buku baru ke dalam sistem*
 
 ## ✨ Fitur Utama
