@@ -1,6 +1,6 @@
 # 📚 Aplikasi Perpustakaan Sederhana
 
-Aplikasi manajemen perpustakaan berbasis web yang dibangun menggunakan framework Laravel 12 dengan arsitektur Model-View-Controller (MVC). Aplikasi ini menyediakan fitur CRUD lengkap untuk pengelolaan buku, anggota, dan peminjaman buku.
+Aplikasi manajemen perpustakaan berbasis web yang dibangun menggunakan framework Laravel 12 dengan arsitektur Model-View-Controller (MVC). Aplikasi ini menyediakan fitur CRUD untuk pengelolaan buku.
 
 ## 📸 Screenshot Aplikasi
 
